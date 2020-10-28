@@ -2,7 +2,7 @@ version: 2.1
 executors:
   docker-publisher:
     environment:
-      IMAGE_NAME: mihalceamihai/apache
+      IMAGE_NAME: teocristescu/test
     docker:
       - image: circleci/buildpack-deps:stretch
 jobs:
